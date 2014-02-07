@@ -29,6 +29,7 @@ public class StoreCredit
 							itemMap.get(credit - cost) + 1, j + 1);
 				}
 				itemMap.put(cost, j);
+				//checking a small change to commit
 			}
 		}
 		in.close();
