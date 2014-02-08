@@ -13,5 +13,6 @@ public class MUFFINS3 {
 			int cups = Integer.parseInt(s.nextLine());
 			System.out.println((cups / 2) + 1);
 		}
+		s.close();
 	}
 }
